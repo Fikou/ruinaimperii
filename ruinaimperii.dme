@@ -1,0 +1,35 @@
+// DM Environment file for ruinaimperii.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "code\_world.dm"
+#include "code\helpers.dm"
+#include "code\_defines\__global.dm"
+#include "code\_defines\_basics.dm"
+#include "code\datum\_atom.dm"
+#include "code\datum\building.dm"
+#include "code\datum\client.dm"
+#include "code\datum\climate.dm"
+#include "code\datum\material.dm"
+#include "code\datum\mob.dm"
+#include "code\datum\nation.dm"
+#include "code\datum\provinces.dm"
+#include "code\datum\terrain.dm"
+#include "code\datum\ui.dm"
+#include "code\datum\vegetation.dm"
+#include "interface\font.dm"
+#include "interface\skin.dmf"
+#include "maps\techdemo.dmm"
+// END_INCLUDE
+
