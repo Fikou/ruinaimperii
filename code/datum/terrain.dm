@@ -10,7 +10,9 @@
 /turf/on_ready()
 	..()
 	if(climate)
-		overlays += image('icons/terrain.dmi', lowertext(climate.name), layer = 3.5)
+		var/image/climate_image = image('icons/terrain.dmi', lowertext(climate.name), layer = 3.5)
+		climate_image.appearance_flags |= RESET_COLOR
+		overlays += climate_image
 
 /turf/water
 	name = "sea"
@@ -41,11 +43,15 @@
 	var/list/population = list()
 	var/list/buildings = list()
 	var/river = NONE
+	var/datum/nation/owning_nation
+	var/datum/nation/controlling_nation
 
 /turf/ground/on_ready()
 	..()
 	if(river)
-		overlays += image('icons/terrain.dmi', "river", dir = river, layer = 3.2)
+		var/image/river_image = image('icons/terrain.dmi', "river", dir = river, layer = 3.2)
+		river_image.appearance_flags |= RESET_COLOR
+		overlays += river_image
 	if(vegetation)
 		overlays += image('icons/terrain.dmi', lowertext(vegetation.name), layer = 3.1)
 
@@ -121,17 +127,6 @@
 	icon_state = "arid"
 	climate_type = /datum/climate/arid
 
-/obj/terrain_modifier/climate/wastes
-	icon_state = "wastes"
-	climate_type = /datum/climate/wastes
-
-/obj/terrain_modifier/climate/wastes/apply_changes(turf/ground/turf_loc)
-	..()
-	if(!istype(turf_loc))
-		return
-	turf_loc.location_name = "Wastelands"
-	turf_loc.density = 1
-
 /obj/terrain_modifier/vegetation
 	name = "vegetation modifier"
 	layer = 3.1
@@ -192,6 +187,7 @@
 	name = "broken settlement"
 	icon_state = "settlement"
 	layer = 3.3
+	var/datum/nation/nation_type
 	var/population = list()
 	var/buildings = list()
 
@@ -203,6 +199,9 @@
 	for(var/datum/building/building as anything in buildings)
 		building = new building()
 		building.add_to(turf_loc)
+	if(nation_type)
+		var/datum/nation/nation = GLOB.nations[nation_type]
+		nation.conquer_location(turf_loc, peaceful = TRUE)
 
 /obj/terrain_modifier/material
 	name = "material modifier"

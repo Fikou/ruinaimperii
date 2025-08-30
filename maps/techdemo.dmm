@@ -15,6 +15,20 @@
 /obj/terrain_modifier/material/grain,
 /turf/ground/mountain,
 /area/province/britannia/pictavia)
+"g" = (
+/obj/terrain_modifier/climate/oceanic,
+/obj/terrain_modifier/river{
+	dir = 8
+	},
+/obj/terrain_modifier/vegetation/grass,
+/obj/terrain_modifier/material/grain,
+/obj/terrain_modifier/settlement{
+	nation_type = /datum/nation/wessex;
+	population = list("noble" = 10);
+	name = "London"
+	},
+/turf/ground/plain,
+/area/province/britannia/lloegyr)
 "h" = (
 /obj/terrain_modifier/climate/oceanic,
 /obj/terrain_modifier/vegetation/sparse,
@@ -79,12 +93,22 @@
 /obj/terrain_modifier/climate/oceanic,
 /obj/terrain_modifier/vegetation/grass,
 /obj/terrain_modifier/material/grain,
+/obj/terrain_modifier/settlement{
+	nation_type = /datum/nation/eire;
+	population = list("noble" = 10);
+	name = "Dublin"
+	},
 /turf/ground/plain,
 /area/province/britannia/leathcuinn)
 "z" = (
 /obj/terrain_modifier/climate/oceanic,
 /obj/terrain_modifier/vegetation/grass,
 /obj/terrain_modifier/material/fish,
+/obj/terrain_modifier/settlement{
+	nation_type = /datum/nation/pictavia;
+	population = list("noble" = 10);
+	name = "Edinburgh"
+	},
 /turf/ground/plain,
 /area/province/britannia/gododdin)
 "A" = (
@@ -282,7 +306,7 @@ a
 a
 u
 h
-R
+g
 a
 a
 "}

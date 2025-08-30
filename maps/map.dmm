@@ -1,33 +1,33 @@
 "aa" = (/obj/terrain_modifier/climate/arctic,/turf/water/deep,/area/sea)
 "ab" = (/obj/terrain_modifier/climate/arctic,/turf/water,/area/sea)
 "ac" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/woods,/turf/ground/hill,/area/sea)
-"ad" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/barren,/turf/ground/mountain,/area/wastes)
+"ad" = (/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/climate/arid,/turf/ground/mountain,/area/wastes)
 "ae" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/sparse,/turf/ground/mountain,/area/sea)
 "af" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/forest,/turf/ground/hill,/area/sea)
 "ag" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/forest,/turf/ground/plain,/area/sea)
 "ah" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/forest,/turf/ground/wetland,/area/sea)
 "ai" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/sparse,/turf/ground/wetland,/area/sea)
 "aj" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/sea)
-"ak" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/forest,/turf/ground/wetland,/area/wastes)
-"al" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/barren,/turf/ground/plain,/area/wastes)
-"am" = (/obj/terrain_modifier/climate/wastes,/turf/water/deep,/area/wastes)
-"an" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/forest,/turf/ground/plain,/area/wastes)
-"ao" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/vegetation/sparse,/turf/ground/mountain,/area/wastes)
-"ap" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/forest,/turf/ground/mountain,/area/wastes)
+"ak" = (/obj/terrain_modifier/vegetation/forest,/obj/terrain_modifier/climate/arctic,/turf/ground/wetland,/area/wastes)
+"al" = (/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/climate/arid,/turf/ground/plain,/area/wastes)
+"am" = (/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/climate/arctic,/turf/ground/plain,/area/wastes)
+"an" = (/obj/terrain_modifier/vegetation/forest,/obj/terrain_modifier/climate/arctic,/turf/ground/plain,/area/wastes)
+"ao" = (/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/vegetation/sparse,/obj/terrain_modifier/climate/arctic,/turf/ground/mountain,/area/wastes)
+"ap" = (/obj/terrain_modifier/vegetation/forest,/obj/terrain_modifier/climate/arctic,/turf/ground/mountain,/area/wastes)
 "aq" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/woods,/turf/ground/mountain,/area/sea)
 "ar" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/sparse,/turf/ground/plain,/area/sea)
 "as" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/sea)
-"at" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/sparse,/turf/ground/mountain,/area/wastes)
+"at" = (/obj/terrain_modifier/vegetation/sparse,/obj/terrain_modifier/climate/arctic,/turf/ground/mountain,/area/wastes)
 "au" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/river{dir = 6},/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/sea)
 "av" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/river{dir = 4},/obj/terrain_modifier/vegetation/sparse,/turf/ground/mountain,/area/sea)
-"aw" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/river{dir = 4},/obj/terrain_modifier/vegetation/barren,/turf/ground/mountain,/area/wastes)
+"aw" = (/obj/terrain_modifier/river{dir = 4},/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/climate/arctic,/turf/ground/mountain,/area/wastes)
 "ax" = (/obj/terrain_modifier/climate/continental,/turf/water/deep,/area/sea)
 "ay" = (/obj/terrain_modifier/climate/continental,/turf/water,/area/sea)
 "az" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/woods,/turf/ground/plain,/area/sea)
 "aA" = (/obj/terrain_modifier/climate/oceanic,/turf/water,/area/sea)
-"aB" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/woods,/turf/ground/hill,/area/wastes)
+"aB" = (/obj/terrain_modifier/vegetation/woods,/obj/terrain_modifier/climate/arctic,/turf/ground/hill,/area/wastes)
 "aC" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/sea)
-"aD" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/woods,/turf/ground/mountain,/area/wastes)
+"aD" = (/obj/terrain_modifier/vegetation/woods,/obj/terrain_modifier/climate/arctic,/turf/ground/mountain,/area/wastes)
 "aE" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/forest,/turf/ground/mountain,/area/sea)
 "aF" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/sparse,/turf/ground/mountain,/area/sea)
 "aG" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/barren,/turf/ground/mountain,/area/sea)
@@ -40,7 +40,7 @@
 "aN" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/strait{icon_state = "strait"; dir = 4},/turf/water,/area/sea)
 "aO" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/river,/obj/terrain_modifier/vegetation/woods,/turf/ground/plain,/area/sea)
 "aP" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/grass,/turf/ground/mountain,/area/sea)
-"aQ" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/forest,/turf/ground/hill,/area/wastes)
+"aQ" = (/obj/terrain_modifier/vegetation/forest,/obj/terrain_modifier/climate/arctic,/turf/ground/hill,/area/wastes)
 "aR" = (/obj/terrain_modifier/climate/continental,/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/province/italia/venetia)
 "aS" = (/obj/terrain_modifier/climate/continental,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/sea)
 "aT" = (/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/sea)
@@ -121,7 +121,7 @@
 "cq" = (/obj/terrain_modifier/climate/semiarid,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/sea)
 "cs" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/river{dir = 4},/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/sea)
 "ct" = (/obj/terrain_modifier/climate/continental,/obj/terrain_modifier/vegetation/woods,/turf/ground/mountain,/area/sea)
-"cu" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/barren,/turf/ground/hill,/area/wastes)
+"cu" = (/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/climate/arid,/turf/ground/hill,/area/wastes)
 "cv" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/river{dir = 6},/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/sea)
 "cw" = (/obj/terrain_modifier/climate/continental,/obj/terrain_modifier/river{dir = 4},/obj/terrain_modifier/vegetation/woods,/turf/ground/mountain,/area/sea)
 "cx" = (/obj/terrain_modifier/climate/continental,/obj/terrain_modifier/river{dir = 1},/obj/terrain_modifier/vegetation/grass,/turf/ground/wetland,/area/sea)
@@ -148,7 +148,7 @@
 "cS" = (/obj/terrain_modifier/climate/semiarid,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/sea)
 "cT" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/woods,/turf/ground/mountain,/area/sea)
 "cU" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/grass,/turf/ground/mountain,/area/sea)
-"cV" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/grass,/turf/ground/mountain,/area/sea)
+"cV" = (/obj/terrain_modifier/vegetation/grass,/turf/ground/mountain,/area/sea)
 "cW" = (/obj/terrain_modifier/climate/semiarid,/obj/terrain_modifier/vegetation/woods,/turf/ground/hill,/area/sea)
 "cX" = (/obj/terrain_modifier/climate/semiarid,/obj/terrain_modifier/vegetation/barren,/turf/ground/plain,/area/sea)
 "cY" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/river{dir = 5},/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/sea)
@@ -207,7 +207,7 @@
 "dZ" = (/obj/terrain_modifier/climate/semiarid,/obj/terrain_modifier/vegetation/forest,/turf/ground/mountain,/area/sea)
 "ea" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/vegetation/woods,/turf/ground/hill,/area/sea)
 "eb" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/vegetation/barren,/turf/ground/hill,/area/sea)
-"ec" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/river,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/wastes)
+"ec" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/river,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/sea)
 "ed" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/sea)
 "ee" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/sea)
 "ef" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/vegetation/barren,/turf/ground/plain,/area/sea)
@@ -215,14 +215,14 @@
 "eh" = (/obj/terrain_modifier/climate/mediterranean,/turf/ground/mountain,/area/sea)
 "ei" = (/obj/terrain_modifier/climate/arid,/turf/water/deep,/area/sea)
 "ej" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/river{dir = 9},/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/sea)
-"ek" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/wastes)
+"ek" = (/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/climate/semiarid,/turf/ground/hill,/area/wastes)
 "el" = (/obj/terrain_modifier/river{dir = 5},/obj/terrain_modifier/vegetation/sparse,/obj/terrain_modifier/climate/arid,/turf/ground/plain,/area/sea)
-"em" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/sparse,/turf/ground/plain,/area/wastes)
+"em" = (/obj/terrain_modifier/vegetation/sparse,/obj/terrain_modifier/climate/arid,/turf/ground/plain,/area/wastes)
 "en" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/river,/obj/terrain_modifier/vegetation/grass,/turf/ground/wetland,/area/sea)
 "eo" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/river,/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/sea)
 "ep" = (/obj/terrain_modifier/river{dir = 10},/obj/terrain_modifier/vegetation/sparse,/obj/terrain_modifier/climate/arid,/turf/ground/plain,/area/sea)
 "eq" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/vegetation/woods,/turf/ground/mountain,/area/sea)
-"er" = (/obj/terrain_modifier/climate/wastes,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/wastes)
+"er" = (/obj/terrain_modifier/vegetation/sparse,/obj/terrain_modifier/climate/arid,/turf/ground/hill,/area/sea)
 "es" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/river{dir = 4},/obj/terrain_modifier/vegetation/sparse,/turf/ground/plain,/area/sea)
 "et" = (/obj/terrain_modifier/climate/arid,/turf/ground/hill,/area/sea)
 "eu" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/river{dir = 5},/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/sea)
@@ -240,10 +240,10 @@
 "eG" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/vegetation/grass,/turf/ground/mountain,/area/sea)
 "eH" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/strait{icon_state = "strait"; dir = 6},/turf/water,/area/sea)
 "eI" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/vegetation/grass,/obj/terrain_modifier/river{dir = 5},/turf/ground/plain,/area/province/italia/venetia)
-"eJ" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/river,/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/wastes)
-"eK" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/vegetation/sparse,/turf/ground/plain,/area/wastes)
-"eL" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/river{dir = 9},/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/wastes)
-"eM" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/wastes)
+"eJ" = (/obj/terrain_modifier/vegetation/forest,/obj/terrain_modifier/climate/continental,/turf/ground/mountain,/area/wastes)
+"eK" = (/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/climate/arctic,/obj/terrain_modifier/climate/arctic,/turf/ground/plain,/area/wastes)
+"eL" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/river{dir = 9},/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/sea)
+"eM" = (/obj/terrain_modifier/vegetation/barren,/obj/terrain_modifier/climate/arctic,/turf/ground/mountain,/area/wastes)
 "eN" = (/obj/terrain_modifier/climate/arid,/obj/terrain_modifier/vegetation/barren,/turf/ground/plain,/area/wastes)
 "eO" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/province/italia/sicily)
 "eP" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/province/italia/sicily)
@@ -275,13 +275,14 @@
 "fr" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/river{dir = 4},/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/province/italia/liguriapiedmont)
 "fs" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/vegetation/woods,/turf/ground/hill,/area/province/italia/liguriapiedmont)
 "ft" = (/obj/terrain_modifier/climate/mediterranean,/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/province/italia/liguriapiedmont)
-"fw" = (/obj/terrain_modifier/climate/arid,/obj/testmap{icon_state = "abc"},/turf/water,/area/sea)
+"fw" = (/obj/terrain_modifier/vegetation/woods,/turf/ground/mountain,/area/wastes)
 "gg" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/woods,/turf/ground/hill,/area/province/britannia/gododdin)
 "gS" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/province/britannia/brigantia)
 "hW" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/province/britannia/dumnonia)
 "ms" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/grass,/turf/ground/plain,/area/province/britannia/gododdin)
 "mz" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/province/britannia/cymru)
 "rF" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/grass,/turf/ground/hill,/area/province/britannia/gododdin)
+"rJ" = (/obj/terrain_modifier/vegetation/forest,/turf/ground/mountain,/area/wastes)
 "so" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/province/britannia/brigantia)
 "sM" = (/obj/terrain_modifier/climate/continental,/obj/terrain_modifier/vegetation/woods,/turf/ground/hill,/area/province/britannia/gododdin)
 "wd" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/sparse,/turf/ground/hill,/area/province/britannia/cymru)
@@ -295,11 +296,11 @@
 "Wz" = (/obj/terrain_modifier/climate/oceanic,/obj/terrain_modifier/vegetation/woods,/turf/ground/plain,/area/province/britannia/lloegyr)
 
 (1,1,1) = {"
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababacadaeafagahahahafafaiaiajakakakaiaaaaalamanananalalalalal
-abababababababaaaaaaaaaaaaaaaaaaaaaaababaeaoapafahagahahahahahahagaiaiaiaiaiaaaaalalanananalanananal
-abajajaqajarabaaaaaaaaaaaaaaaaaaaaaaabasatapafagagagababahahahahahagaaaaaaaaanananananananalanananan
-abauavawadaeabaaaaaaaaaaaaaaaaaxaxayabasatafahagagababazahahahahahagaaagagaganananananananananananan
-ababajadabababaaaaaaaaaaaaaaaxayaAayasaBapahahagababazahahahahahagagagagagagakananananananananananan
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababaceMaeafagahahahafafaiaiajakakakaiaaaaeKaaanananamamamamam
+abababababababaaaaaaaaaaaaaaaaaaaaaaababaeaoapafahagahahahahahahagaiaiaiaiaiaaaaeKeKanananamanananam
+abajajaqajarabaaaaaaaaaaaaaaaaaaaaaaabasatapafagagagababahahahahahagaaaaaaaaanananananananamanananan
+abauavaweMaeabaaaaaaaaaaaaaaaaaxaxayabasatafahagagababazahahahahahagaaagagaganananananananananananan
+ababajeMabababaaaaaaaaaaaaaaaxayaAayasaBapahahagababazahahahahahagagagagagagakananananananananananan
 aaababababaaabababaaaaaaaaaxayaAaCaeacaDaEafazababazahahahahagahagagagahagagakakakananananananananan
 aaaaaaaaaaaaabfaayayayayaxaxaAaFaGapaEafahagaHababaHagagaIagagagagagagagagaganananananananananananan
 aaaaaaaJaJaaabayayayfhayaxaJaAajaGaEacafahafaLaMaNaLagagaOazazababagagagagagagananananananananananan
@@ -315,24 +316,24 @@ aJaJaJaJaAfoaAaAmzwdJTJTaAaAbPbQbibGaLbobRbmbSaMaLbBaLaXbTbebUblaXaLaLaLaMaMaMaM
 aJaJaJaJaAaAaAaAhWGdTxaAaAbibibZcaaLbvcbccbscdbcaUceaLaXaLaXaLbDaMaMaMaMaMaMaMaMbDbXbXbXbXbYbXbXbXbX
 aJaJaJaJaJaJaJaAaAaAaAaAbObQbGbhcfccaLbscgbvbsbschaXaMaMaLaXaXbrbmbSaMaMaMaMaMcicjbXbXbXbXbYbXbXbXbX
 aJaJaJaJaJaJaJaAbibibibibibJbibibGckaLclcmcmcnccbsbvbsaXaMbqbRblaMbDaMaMaMaMcicicocpbXbXbXbYbXbXbXcq
-aJaJaJaJaJaJaJaAaAaAcscsbQbibhbibvckaDctbgbgaMbDaMaMbsapaXbMbSbDbNbnaMaMaMcicicicicocpbXbXbYbXbXbXcu
-aJaJaJaJaJaJaJaJaJaAaAbwbJbQcvcwapeSaqctctbvaMcxcyaMbschapaLbMczcAciczczaMaMcicicicicBczczczbXbXcucu
+aJaJaJaJaJaJaJaAaAaAcscsbQbibhbibvckfwctbgbgaMbDaMaMbseJaXbMbSbDbNbnaMaMaMcicicicicocpbXbXbYbXbXbXek
+aJaJaJaJaJaJaJaJaJaAaAbwbJbQcvcwrJeSaqctctbvaMcxcyaMbscheJaLbMczcAciczczaMaMcicicicicBczczczbXbXekek
 aJaJaJaJaJaJaJaJaJaJaAcCbGcDcEaqfqfreRfpaRbvaMbMcIbSbsbsbscJcKczczciciaVaMaMaMciciciczczbXbXbXcqcLcL
 aJaJaJaJaJaAaAaAaAaAaAbwbibhcMaqfsftcGeIcQaybgbgaXbMbmbmbmcRczczayayayayaybschchcicSczczbXbXcLcLcLcL
-aJaJaJaJaJaAbGcTcUbhbhaecVcPcQcOcQcQeXeTeTcQcQctctctbgbvchcSczczayayayayayayaqaqbvcWczczczbXcqcucXcX
-aJaJaJaJaJaAaCbtcScYcZbQdacOcQcQcQeVcQdbeWfdczcQddbvccdedfcOdgaydhdhayayayayaXbsaEaediczczbXcqcucXcX
-aJaJaJaJaJaAdjbEcWaCcSdkdlcQcQcQcQeVcQcQeZfefdcQdccqdmcQdncQdobsbsdpdqbvbgdrbgchdsciazbXczczczcucLcu
-aJaJaJaJaJaAdtdudvdwcSciczcicQcQcQeYcQcQcQcQeUcQdzcNcQcQcOdAdBcScWdCcScqdDaZaPaccqdEcidFczczcucXcLcu
+aJaJaJaJaJaAbGcTcUbhbhaecVcPcQcOcQcQeXeTeTcQcQctctctbgbvchcSczczayayayayayayaqaqbvcWczczczbXcqekcXcX
+aJaJaJaJaJaAaCbtcScYcZbQdacOcQcQcQeVcQdbeWfdczcQddbvccdedfcOdgaydhdhayayayayaXbsaEaediczczbXcqekcXcX
+aJaJaJaJaJaAdjbEcWaCcSdkdlcQcQcQcQeVcQcQeZfefdcQdccqdmcQdncQdobsbsdpdqbvbgdrbgchdsciazbXczczczekcLek
+aJaJaJaJaJaAdtdudvdwcSciczcicQcQcQeYcQcQcQcQeUcQdzcNcQcQcOdAdBcScWdCcScqdDaZaPaccqdEcidFczczekcXcLek
 aJaJaJaJaJaAdGbXcWcScqcSczcQcQcQcQcQcQcQePeQdIcQcQdocOcQdJcOdAcScqcqcqcSdCchdDctcqcqcPczczczcLcLcXbX
 aJaJaJdKdKcQdLdMdycSdNdOcQcQcQcQcQdPcQcQcQeOcQcQcQcNcOcQcQcPdAdxcqcqdodAdLdydQcHdsdRcqcOcQczbXcqdScq
 aJaJaJdKdKcQcQcQdndOdOcQcNcNdxcPcNdTcOcQcQcQcQcQcQcQcQcQcQcQdAcQcQcQcQcidUdVdWdXbvdYcqdsdzdZeaebcLcq
-aJaJaJaJdKdKcQcOcPecekcPcOcOedeeeeedcOcQcQeOcQcQcQcQcQdHcQcQcQcQfbfccQciefegefegdyctcScLebebcucuebeb
-aJaJaJdKdKcQcQcOeheJeKdycOdWdWdWdWdWdWcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQdAbXefdUdVdUdVcNcPaScLcucucuebeb
-aJaJaJeidOcQcFejdzeLeMedalcudWefefefdWdWedcQcQcQcOcOdWdOcQcQcQcQcQcQcNbXalaleldVdUdVcOctdRcLebcucueb
-aJaJaJeidOededeeeeeKeMcucucuefefefefdWdWdWdWdOdOedememdWdWdOcQendOcQcWefefefaldUdVdUdVdyaZcLcLebcucu
-aJaJeieidOeddNdWefemeNalalefefalalefdWemdWdWdWdWdWdWdWdWdWdWedeoedebebalefefefefelepdUdVeqdEcLcLcLcu
-aJeidOdOdOdNeremefeKeKdWdWdWalalalefemememdWefefefefalefdWaldWeodWcuebefalalalefefdUesdOefdscLcLcLeb
-eieidOdWdWefalalefalalefemefalalalefalememefalalalefefefefefefeoemdOefebefalefefefefefdOdOefetebefef
+aJaJaJaJdKdKcQcOcPeccPcPcOcOedeeeeedcOcQcQeOcQcQcQcQcQdHcQcQcQcQfbfccQciefegefegdyctcScLebebcucuebeb
+aJaJaJdKdKcQcQcOehdLdWdycOdWdWdWdWdWdWcQcQcQcQcQcQcQcQcQcQcQcQcQcQcQdAbXefdUdVdUdVcNcPaScLcucucuebeb
+aJaJaJeidOcQcFejdzeLeeedexcudWefefefdWdWedcQcQcQcOcOdWdOcQcQcQcQcQcQcNbXalaleldVdUdVcOctdRcLebcucueb
+aJaJaJeidOededeeeedWeecucucuefefefefdWdWdWdWdOdOedezezdWdWdOcQendOcQcWefefefaldUdVdUdVdyaZcLcLebcucu
+aJaJeieidOeddNdWefezeNalalefefalalefdWezdWdWdWdWdWdWdWdWdWdWedeoedebebalefefefefelepdUdVeqdEcLcLcLcu
+aJeidOdOdOdNerezefdWdWdWdWdWalalalefezezezdWefefefefalefdWaldWeodWcuebefalalalefefdUesdOefdscLcLcLeb
+eieidOdWdWefalalefalalefezefalalalefalezezefalalalefefefefefefeoezdOefebefalefefefefefdOdOefetebefef
 eidOdOdWefefalefefalalefefefalalalefefefdWefalalalalefalalefaleuevdOdOebebebebebefefefefdOdOdOewdOef
 eidOdWexefalalalefalefefalefefalalefefaldWefefefefefefalefefefeyeodWdOebebebebebebefefefefdOdOefdOef
 dOdOezalefalalalefefefalalalefalalefalalalefalalalalefefexalaleAeBdWdOdOebebebebebefefefefefefefdOdO
@@ -344,5 +345,5 @@ dOefcuadcualefefefefalalefalalefefefefefalalalefalalalalalefalefegefebebdOdOefdW
 dOefefebcuefefalefefefefefefefefefalalexefalalefefalalefefefefefegefefefeDdOdOebebalalalefefdOdOdOei
 dOeddWdWetdWdWeyeedWdWdWefalaldWdWefalalefalalalefefefefefefefefegdWdWeteEdOdOebdNebebefefdOdOeieiei
 dOedededdNedededdNededdWdWdWdWeedWdWdWdWeFdWdWdWeedWeeeedWefefdWegdWdWeeeGdWeHdWdNebebdOdOdOeieieiei
-fwedededededdNedededededededededededdNeddOededdNeddNeddWdWededeeegdWeEeGeGdNdWdOdOdOdOdOeieieieieiei
+dOedededededdNedededededededededededdNeddOededdNeddNeddWdWededeeegdWeEeGeGdNdWdOdOdOdOdOeieieieieiei
 "}

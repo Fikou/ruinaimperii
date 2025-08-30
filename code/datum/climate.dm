@@ -26,7 +26,3 @@ GLOBAL_LIST_INIT(climates, initialize_climates())
 
 /datum/climate/arid
 	name = "Arid"
-
-/datum/climate/wastes
-	name = "Wastes"
-	desc = "Inhospitable to human life, these provinces can't be moved on by an army or settled."

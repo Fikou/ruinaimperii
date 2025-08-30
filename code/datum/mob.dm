@@ -43,6 +43,7 @@
 /mob/player/New(spawnloc)
 	..()
 	selection_image = image('icons/terrain.dmi', "selected", layer = 3.9)
+	selection_image.appearance_flags |= RESET_COLOR
 
 /mob/player/Login()
 	..()

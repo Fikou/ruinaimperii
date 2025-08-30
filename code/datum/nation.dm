@@ -14,14 +14,17 @@ GLOBAL_LIST_INIT(nations, initialize_nations())
 	var/list/locations = list()
 	var/list/provinces = list()
 
+/datum/nation/proc/conquer_location(turf/ground/location, peaceful = FALSE)
+	location.color = color
+
 /datum/nation/wessex
 	name = "Wessex"
-	color = "#cc0000"
+	color = list(0.5, 0, 0, 0.5, 0, 0, 0.5, 0, 0)
 
 /datum/nation/eire
 	name = "Eire"
-	color = "#00cc00"
+	color = list(0, 0.5, 0, 0, 0.5, 0, 0, 0.5, 0)
 
 /datum/nation/pictavia
 	name = "Pictavia"
-	color = "#0000cc"
+	color = list(0, 0.1, 0.5, 0, 0.1, 0.5, 0, 0.1, 0.5)

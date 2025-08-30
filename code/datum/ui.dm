@@ -47,8 +47,6 @@
 	climate.icon = 'icons/ui.dmi'
 	climate.icon_state = "topvegcli"
 	switch(selected_location.climate.type)
-		if(/datum/climate/wastes)
-			climate.icon_state = "wastes"
 		if(/datum/climate/arctic)
 			climate.icon_state = "arctic"
 		if(/datum/climate/continental)
